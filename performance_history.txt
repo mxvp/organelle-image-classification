@@ -1,0 +1,5 @@
+1. basic architecture, no transformations, no class based weights, BCE: .85 accuracy, 0.22 F1
+
+2. basic architecture, no transformations, class based weights, BCE: .85 accuracy, 0.28 F1
+
+3. basic, normalization based on channel means and stdevs, class based weights, BCE: .85 accuracy, 0.26 F1
