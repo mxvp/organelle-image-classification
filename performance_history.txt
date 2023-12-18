@@ -3,3 +3,11 @@
 2. basic architecture, no transformations, class based weights, BCE: .85 accuracy, 0.28 F1
 
 3. basic, normalization based on channel means and stdevs, class based weights, BCE: .85 accuracy, 0.26 F1
+
+4. TINYVGG-based basic, normalization based on channel means and stdevs, class based weights, BCE: 0.87 accuracy, 0.37 F1
+
+5. TINYVGG-based basic, normalization based on channel means and stdevs, class based weights, randomflips (hor and vert), BCE: 0.88 accuracy, 0.36 F1
+
+6. TINYVGG-based basic, normalization based on channel means and stdevs, class based weights, randomflips (hor and vert), dropout layers, BCE: 0.88 accuracy, 0.30 F1
+
+7. DENSENET PRETRAINED, normalization based on channel means and stdevs,dropout layers (already in premade), BCE: 0.90 accuracy, 0.59 F1
